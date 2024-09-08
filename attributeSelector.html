@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Attribute selector</title>
+</head>
+<body>
+    <p align="left" class="one">I am one</p>
+    <h1 align="center">I am two</h1>
+    <h3 align="right" id="three">I am three</h3>
+</body>
+<style>
+    .one[align="left"]{
+        color: aquamarine;
+        background-color: brown;
+    }
+    [align="center"]{
+        color:bisque;
+        background-color: blue;
+    }
+    #three[align="right"]{
+        color: chartreuse;
+        background-color: chocolate;
+    }
+</style>
+</html>
