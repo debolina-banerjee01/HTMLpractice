@@ -32,7 +32,7 @@
               <label for="">Password</label>
             </td>
             <td>
-              <input
+              <input type="password"
                 id="password" placeholder="Enter the password"/>
             </td>
           </tr>
@@ -57,6 +57,8 @@ form.addEventListener('submit', function(event) {
     // Log the values to the console
     console.log(`Username: ${username}`);
     console.log(`Password: ${password}`);
+  document.getElementById('username').value=""
+document.getElementById('password').value=""
 });
     </script>
   </body>
