@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center" id="h1tag">HELLO WORLD</h1>
+    <tr>
+        <td>
+            <label for="">COLOR</label>
+            <td>
+                <input id="inp" type="text"/>
+              </td>
+        </td>
+    </tr>
+    <button id="btn">SUBMIT</button>
+    <script>
+        let h1Tag=document.getElementById('h1tag');
+        let inpt=document.getElementById('inp');
+        let btn=document.getElementById('btn');
+
+
+    btn.addEventListener('click', ()=>{        
+        h1Tag.style.color=inpt.value;
+        inpt.value="";
+    })
+</script>
+
+</body>
+</html>
