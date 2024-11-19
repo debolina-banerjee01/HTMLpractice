@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+        gap: 20px;
+    }
+    .child{
+        background-color: brown;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        animation: loadingpage 2s linear 0s infinite alternate;
+    }
+    @keyframes loadingpage{
+            0%{
+                transform:scale(1.2)
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+    .one{
+        background-color: yellow;
+        animation-duration: 0.5s;
+        animation-delay: 0.5s;
+    }
+    .two{
+        background-color: hotpink;
+        animation-duration: 1;
+        animation-delay: 0.4s;
+    }
+    .three{
+        background-color: blue;
+        animation-duration: 0.5s;
+        animation-delay: 0.5s;
+    }
+    .four{
+        background-color: red;
+        animation-duration: 1s;
+        animation-delay: 0.4s;
+    }
+    .five{
+        background-color: lawngreen;
+        animation-duration: 0.5s;
+        animation-delay: 0.5s;
+    }
+    .six{
+        background-color: orange;
+        animation-duration: 1s;
+        animation-delay: 0.4s;
+    }
+    .seven{
+        background-color: aqua;
+        animation-duration: 0.5s;
+        animation-delay: 0.5s;
+    }
+    body{
+        background-color: black;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="child one"></div>
+        <div class="child two"></div>
+        <div class="child three"></div>
+        <div class="child four"></div>
+        <div class="child five"></div>
+        <div class="child six"></div>
+        <div class="child seven"></div>
+    </div>
+</body>
+</html>
