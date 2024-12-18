@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Child combinators</title>
+</head>
+<body>
+    <div class="header">
+        <h1>I am one <span>Span tag</span></h1>
+        <h2>I am two</h2>
+        <h3>I am three</h3>
+    </div>
+    <div class="main">
+        <h1>I am one</h1>
+        <h2>I am two</h2>
+    </div>
+    <div class="footer">
+        <h1>I am one <span>Span tag</span></h1>
+        <h2>I am two</h2>
+        <h3>I am three</h3>
+    </div>
+</body>
+<style>
+    .header>h1>span{
+        color: blueviolet;
+    }
+    .footer>h2{
+        background-color: chartreuse;
+        width: 100px;
+    }
+</style>
+</html>
